@@ -9,4 +9,4 @@ Let's imagine we have 2 microservices (account and user) and 2 environments (sta
 
 Under the environments/ folder, I used Terragrunt to provision each of the 3 Terraform modules for each of the 2 microservices in each of the 2 environments.
 
-The purpose of this example is to show that this architecture and structure allows for expandability: we can easily add another environment, we can easily add another microservice, we can easily add another terraform module.
+The purpose of this example is to show that this architecture and structure allows for expandability and scalability: we can easily add another environment, we can easily add another microservice, we can easily add another terraform module.
