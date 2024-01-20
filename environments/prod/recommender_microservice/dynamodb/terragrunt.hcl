@@ -7,8 +7,8 @@ terraform {
 }
 
 inputs = {
-  table_name = "account"
+  table_name = "recommender-db"
   env = "prod"
-  read_capacity = 20
-  write_capacity = 20
+  read_capacity = 15
+  write_capacity = 15
 }

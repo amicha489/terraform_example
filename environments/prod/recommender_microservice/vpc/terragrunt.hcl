@@ -7,7 +7,7 @@ terraform {
 }
 
 inputs = {
-  name = "user"
+  name = "recommender-vpc"
   sg_port = 80
   subnet_avail_zone = "us-west-2a"
   env = "prod"

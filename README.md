@@ -5,7 +5,7 @@ This example includes 3 basic Terraform modules located in the modules/ folder:
 - redis module provisions an AWS Elasticache Redis cluster and Replication Group
 - vpc module provisions a VPC, a Subnet, and a Security Group in AWS
 
-Let's imagine we have 2 microservices (account and user) and 2 environments (stage and prod).
+Let's imagine we have 2 microservices (review and recommender) and 2 environments (stage and prod).
 
 Under the environments/ folder, I used Terragrunt to provision each of the 3 Terraform modules for each of the 2 microservices in each of the 2 environments.
 

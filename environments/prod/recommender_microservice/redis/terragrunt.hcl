@@ -8,8 +8,8 @@ terraform {
 
 inputs = {
   node_type  = "cache.t3.micro"
-  cluster_name = "account"
-  cache_zones = ["us-west-2c", "us-west-2d"]
-  replication_group_id = "account-rep-group"
+  cluster_name = "recommender-redis"
+  cache_zones = ["us-west-2a", "us-west-2b"]
+  replication_group_id = "recommender-rep-group"
   env="prod"
 }
